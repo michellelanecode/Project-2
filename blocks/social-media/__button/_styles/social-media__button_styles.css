@@ -1,0 +1,10 @@
+.social-media__button_styles {
+  position: relative;
+  display: inline-block;
+
+}
+
+.social-media__button_styles:hover .social-media {
+	display: block;
+}
+

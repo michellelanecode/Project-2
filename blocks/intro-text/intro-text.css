@@ -1,0 +1,26 @@
+.intro-text {
+	color: black;
+	letter-spacing: .5px;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 1150px) {
+	.intro-text {
+			max-width: 750px;
+			margin: 20px auto;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.intro-text {
+		max-width: 460px;
+	font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 463px) {
+	.intro-text {
+		max-width: 320px;
+	font-size: 15px;
+	}
+}

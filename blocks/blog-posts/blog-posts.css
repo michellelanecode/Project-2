@@ -3,3 +3,9 @@
 	margin: 0 auto;
 	display: flex;
 }
+
+@media screen and (max-width: 1150px) {
+			.blog-posts{
+			max-width: 100vw;
+}
+}

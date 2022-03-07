@@ -1,5 +1,7 @@
 .header__nav-list {
-	list-style-type: none;
-	display: flex;
-	justify-content: space-evenly;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
 }
+

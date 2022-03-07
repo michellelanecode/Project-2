@@ -16,3 +16,17 @@
 @import url(../blocks/quick-links/quick-links.css);
 @import url(../blocks/quick-links/__items/quick-links__items.css);
 @import url(../blocks/quick-links/__nav/quick-links__nav.css);
+@import url(../blocks/quick-links/__menu/quick-links__menu.css);
+@import url(../blocks/quick-links/__image/quick-links__image.css);
+@import url(../blocks/card/__heading/card__heading.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/intro-text/intro-text.css);
+@import url(../blocks/intro-image/intro-image.css);
+@import url(../blocks/social-media/social-media.css);
+@import url(../blocks/social-media/__button/social-media__button.css);
+@import url(../blocks/social-media/__button/_styles/social-media__button_styles.css);
+@import url(../blocks/social-media/__link/social-media__link.css);
+@import url(../blocks/social-media/__icon/social-media__icon.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__quote/footer__quote.css);

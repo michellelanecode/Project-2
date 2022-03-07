@@ -1,6 +1,15 @@
 .most-recent__heading {
-	border: 1px solid red;
 		max-width: 980px;
-		color: white;
+		color: black;
+	font-weight: 600;
 		text-align: center;
+	font-size: 55px;
+	font-family: "Didot", sans-serif;
+}
+
+@media screen and (max-width: 464px) {
+			.most-recent__heading {
+				max-width: 100vw;
+				font-size: 25px;
+}
 }

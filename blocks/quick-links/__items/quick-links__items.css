@@ -1,4 +1,23 @@
 .quick-links__items {
-			border:  1px white solid;
-			margin: 0 auto;
+margin: 50px;
+max-width: 100px;
+max-height: 100px;
+}
+
+@media screen and (max-width: 1150px) {
+			.quick-links__items {
+			margin: 25px
+}
+}
+
+@media screen and (max-width: 875px) {
+			.quick-links__items {
+			margin: 15px
+}
+}
+
+@media screen and (max-width: 765px) {
+			.quick-links__items {
+			margin: 5px
+}
 }

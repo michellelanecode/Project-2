@@ -1,8 +1,30 @@
 .quick-links__nav {
 		list-style-type: none;
-		flex-direction: column;
-		color: white;
-		text-align: center;
-		margin: 0 auto;
-	padding: 0;
+		color: black;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(6, auto);
+		gap: 16px;
+	}
+
+
+@media screen and (max-width: 964px) {
+			.quick-links__nav {
+			margin: 5px;
+			grid-template-columns: repeat(5, auto);
+}
+}
+
+@media screen and (max-width: 765px) {
+			.quick-links__nav {
+			margin: 5px;
+			grid-template-columns: repeat(4, auto);
+}
+}
+
+@media screen and (max-width: 494px) {
+			.quick-links__nav {
+			margin: 5px;
+			grid-template-columns: repeat(3, auto);
+}
 }

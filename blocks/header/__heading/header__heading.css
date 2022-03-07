@@ -3,4 +3,16 @@
   letter-spacing: 2px;
   font-style: italic;
   font-weight: 400;
+  font-size: 65px;
+}
+
+
+@media screen and (max-width: 765px) {
+			.header__heading {
+		line-height: 106%;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 45px;
+}
 }
