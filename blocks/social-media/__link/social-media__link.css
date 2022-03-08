@@ -4,3 +4,8 @@
   font-size: 10px;
 }
 }
+
+
+.social-media__link:hover {
+	opacity: .5;
+}
